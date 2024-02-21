@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: rgb(255, 247, 226);
+}
+.menu-section {
+  width: 90%;
+  /* max-width: 1280px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: #fff;
+  margin: 50px auto;
+  padding: 20px 30px;
+  border-radius: 4px;
+}
+.underline {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background: goldenrod;
+  border-radius: 15px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section-center {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px auto;
+}
+.menu-item {
+  width: 500px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 25px;
+}
+.menu-item .photo {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border: 4px solid goldenrod;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.item-info .title {
+  color: goldenrod;
+  font-size: 18px;
+  font-weight: 600;
+}
+.item-info .price {
+  color: goldenrod;
+  font-size: 18px;
+  font-weight: 600;
+}
+.underline-2 {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: goldenrod;
+  border-radius: 15px;
+}
+.category-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+.filter-btn {
+  padding: 7px 13px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: goldenrod;
+  font-size: 14px;
+  font-weight: 600;
+  background: transparent;
+  border-radius: 4px;
+}
+.filter-btn:hover {
+  background: goldenrod;
+  color: #fff;
+}
